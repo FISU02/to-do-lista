@@ -1,10 +1,10 @@
 <?php
-$servername="todo-lista-server.mysql.database.azure.com";
-$username="rzaztnvlxd@todo-lista-server";
+$hostname="todo-lista-server.mysql.database.azure.com";
+$username="rzaztnvlxd";
 $password="Alamakota123";
 $dbname = "todo";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($hostname, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
