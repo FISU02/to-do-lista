@@ -1,7 +1,8 @@
 <?php
-$hostname="to-do-list-filip-kuba-server.mysql.database.azure.com";
-$username="pytqhbqrtu";
-$password="Alamakota123";
+$hostname=todo-lista-server.mysql.database.azure.com;
+$username=rzaztnvlxd;
+$password='Alamakota123';
+$ssl-mode=require;
 $dbname = "todo";
 
 $conn = new mysqli($hostname, $username, $password, $dbname);
